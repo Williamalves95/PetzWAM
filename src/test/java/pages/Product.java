@@ -23,7 +23,7 @@ public class Product extends Base {
        }
 
         // Ler o nome do produto
-    public String String readProductTitle(){
+    public String readProductTitle(){
         return productTitle.getText();
     }
 

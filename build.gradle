@@ -19,9 +19,11 @@ dependencies {
     testImplementation group: 'info.cukes', name: 'cucumber-picocontainer', version: '1.2.5'
 
 // https://mvnrepository.com/artifact/com.vimalselvam/cucumber-extentsreport
-    implementation group: 'com.vimalselvam', name: 'cucumber-extentsreport', version: '3.1.1'
+// Gera o dashboard-painel bonito a artir do aventstack Extentreports
+        implementation group: 'com.vimalselvam', name: 'cucumber-extentsreport', version: '3.1.1'
 
 // https://mvnrepository.com/artifact/com.aventstack/extentreports
+// gera o jason e o html com os dados do teste para relatorio associado as features e scenario do Gherkin
     implementation group: 'com.aventstack', name: 'extentreports', version: '3.0.7'
 // https://mvnrepository.com/artifact/org.freemarker/freemarker
     implementation group: 'org.freemarker', name: 'freemarker', version: '2.3.28'
